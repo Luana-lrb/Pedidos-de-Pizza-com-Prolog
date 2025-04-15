@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido das Pizzas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<h1>Cancelar Pedido ❌</h1>
+
+<form method="post" enctype="application/x-www-form-urlencoded" action="http://localhost:8000/remove_pedido">
+    <p><label>Cliente: <input name="nomeCliente"></label></p>
+    <p><label>Telefone: <input type=tel name="telCliente"></label></p>
+    <p><button>Remover Pedido</button></p>
+</form>
+
+</html>
